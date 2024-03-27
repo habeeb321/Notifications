@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           child: GFButton(
             onPressed: () {
               NotificationHelper.pushNotification(
-                title: 'Habeebu Rahman ',
+                title: 'Habeebu Rahman',
                 body: 'This is a sample Notification',
               );
             },
